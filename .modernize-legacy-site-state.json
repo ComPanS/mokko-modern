@@ -3,9 +3,11 @@
   "version": "1.0",
   "sourceUrl": "https://mokko-ulitsa-lermontova.clients.site/",
   "projectPath": "/Users/aizat/Documents/Projects/RestoredOldSites/mokko-modern",
-  "phase": "LOCAL_HANDOFF",
+  "phase": "POST_PUBLICATION_PACKAGE",
   "source": { "language": "ru", "businessName": "Мокко", "location": "Владимир, улица Лермонтова, 21Б", "mobileStatus": "present", "mobileEvidence": ["profile page includes explicit mobile layout rules", "mobile catalog becomes a horizontal category scroller and photo strip", "mobile navigation remains actionable"] },
   "routes": [{ "path": "/", "stage": 1, "status": "implemented" }, { "path": "/prices/", "stage": 2, "status": "deferred" }, { "path": "/gallery/", "stage": 2, "status": "deferred" }, { "path": "/reviews/", "stage": 2, "status": "deferred" }],
   "assets": [{ "role": "Business logo", "path": "public/images/logo.png", "status": "downloaded" }, { "role": "Primary photo", "path": "public/images/hero.jpg", "status": "downloaded" }, { "role": "Gallery and catalog photos", "path": "public/images/", "status": "downloaded" }],
-  "local": { "buildPassed": true, "distPath": "dist", "previewUrl": "http://127.0.0.1:5186/", "qa": { "viewports": ["320x844", "390x844", "768x1024", "1440x900"], "passes": 2, "overflow": false, "basePathVerified": true, "consoleErrors": 0, "brokenImages": 0 } }
+  "local": { "buildPassed": true, "distPath": "dist", "previewUrl": "http://127.0.0.1:5186/", "qa": { "viewports": ["320x844", "390x844", "768x1024", "1440x900"], "passes": 2, "overflow": false, "basePathVerified": true, "consoleErrors": 0, "brokenImages": 0 } },
+  "publication": { "approved": true, "repositoryUrl": "https://github.com/ComPanS/mokko-modern", "pagesUrl": "https://compans.github.io/mokko-modern/", "workflowRun": "https://github.com/ComPanS/mokko-modern/actions/runs/35120563798", "liveVerified": true },
+  "postPublication": { "screenshots": [], "clientMessagePresented": true }
 }
